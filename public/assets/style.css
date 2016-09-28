@@ -1,0 +1,343 @@
+
+
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists
+   will truncate terms that are too long to fit in the left column
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.cart-poster {
+    height: 300px;
+}
+
+.cart-btn {
+ margin-top: 150px;
+}
+
+
+.thumbnail {
+    height: 500px;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+
+.thumbnail:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: all 100ms ease-in;
+}
+
+
+#poster-image {
+    height: 500px;
+    padding: 0;
+    margin: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.imagePoster-holder {
+    padding: 0;
+    margin: 0;
+}
+
+.movie-item {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+h2 {
+    margin-top: 60px;
+}
+
+
+
+.top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+
+
+
+
+
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+}
+
+
+.right-side-card {
+    height: 500px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.thumbnail a > img {
+    height: 50px;
+}
+
+
+
+.thumbnail a > img:hover {
+
+    content: url("/Content/Images/rmoviehover-min.png");
+    transition: all 200ms ease;
+
+}
+
+
+
+
+
+
+
+
+.header-logo {
+    height: 40px;
+}
+
+
+.navbar-brand {
+    position: relative;
+    padding: 0;
+    top: 10px;
+}
+
+
+
+
+#movie-search {
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+
+
+input[type=text]:focus {
+    outline: 0;
+}
+
+
+
+
+.toast-top-right {
+    margin-top: 60px;
+}
+
+
+#yt-container {
+    width: 330px;
+    height: 200px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background-color: #000000;
+    margin-left: 15px;
+
+}
+
+
+
+.thumbnail a > img {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+
+.video-wrapper {
+    height: 200px;
+    position: relative;
+}
+
+
+.center-in-div {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+
+
+
+
+
+
+.glyphicon-play {
+    font-size: 30px;
+}
+
+
+.yt {
+    bottom: 0;
+}
+
+
+.first-card-row {
+    padding: 25px;
+    margin-right: 30px;
+}
+
+
+
+
+nav .fa-shopping-cart,
+nav .fa-search,
+nav .fa-film,
+nav .fa-user-plus,
+nav .fa-lock,
+nav .fa-map-pin {
+    color: white;
+    font-size: 20px;
+}
+
+
+.fa-play-circle {
+    font-size: 90px;
+}
+
+
+.fa-play-circle:hover {
+    color: #00c600;
+    transition: all 200ms ease;
+
+
+}
+
+#price {
+    font-size: 25px;
+    margin: 8px 10px;
+    float: right;
+}
+
+
+.bottom-card-part {
+    bottom: 0;
+    margin: 20px 10px;
+    padding: 0;
+    position: absolute;
+
+}
+
+.first-card-row h1 {
+    font-weight: 500;
+}
+
+.remove-item {
+    background-color: red;
+}
+
+.cart-up-down input[type=text] {
+    margin-left: 20px;
+    width: 20px;
+}
+
+
+.total-price-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.total-price-div {
+    float: right;
+}
+
+
+
+.social-footer-links li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.fa-paypal {
+    color: #003087;
+}
+
+.fa-btc {
+    color: #FF9900;
+}
+
+footer .fa {
+    font-size: 20px;
+}
+
+
+
+body {
+    background-color: #f4f4f4;
+}
+
+.h2-responsive {
+    margin: 0;
+}
+
+footer.page-footer {
+    margin-top: -1px;
+}
+
+
+nav ul .shopping-cart-li  {
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+
+.md-form .error {
+    margin-top: 40px;
+    color: red;
+    font-size: 12px;
+}
+
+
+
+
+input[type=text]:focus:not([readonly])+label {
+    color: transparent;
+
+}
+
+input[type=password]:focus:not([readonly])+label {
+    color: transparent;
+
+}
+
+

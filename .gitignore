@@ -1,0 +1,7 @@
+/.env
+/phinx.yml
+/composer.lock
+/cache/
+/vendor/
+/.vagrant/
+/.idea/
